@@ -14,7 +14,6 @@ using Microsoft.IdentityModel.Tokens;
 namespace DatingApp.API.Controllers
 {
     // POST http://localhost:5000/api/auth
-    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController] // auto validate the request
     public class AuthController : ControllerBase
